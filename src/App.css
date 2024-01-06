@@ -334,6 +334,13 @@ p6 {
     align-items: er;
     width: 100%;
     height: 35rem;
+    top: 4.1rem;
+    z-index: -1;
+    display: flex;
+    align-items: er;
+    width: 100%;
+    height: 35rem;
+    filter: opacity(0.5);
 }
 
 .h-texts {
@@ -350,7 +357,9 @@ p6 {
     margin-right: 0.5rem;
     border-radius: 1rem;
 }
-
+.a-con{
+    margin-top: 1rem;
+}
 .a-con .first-p {
     margin-bottom: 4rem;
 }
@@ -374,6 +383,8 @@ p6 {
     border: 0.1rem solid;
     padding: 1rem 0rem 1rem 1rem;
     border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 .a1-con:hover {
@@ -413,16 +424,6 @@ p6 {
     width: 8rem;
     height: 2rem;
     filter: drop-shadow(2px 4px 6px black);
-}
-
-.img-con img {
-    position: absolute;
-    z-index: -1;
-    display: flex;
-    align-items: er;
-    width: 100%;
-    height: 35rem;
-    filter: opacity(0.5);
 }
 
 #about-con:hover {
@@ -496,6 +497,12 @@ footer a {
 
 .img1-con img {
     width: 33%;
+}
+.auto-type1{
+    font-size: 3rem;
+}
+.a1-con a{
+    text-decoration: none;
 }
 
 @media (max-width:430px) and (min-width:230px) {
@@ -604,6 +611,8 @@ footer a {
 
     .h-p-con p {
         font-size: 1.3rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
     }
 
     .a1-con {
@@ -700,6 +709,7 @@ footer a {
 
     .img-con img {
         height: 102rem;
+        top: 16rem;
     }
 
     .multi-head-para-con a {
