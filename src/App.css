@@ -16,11 +16,13 @@ html {
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
-.logo{
+
+.logo {
     font-weight: 600;
     text-shadow: 0rem 0.2rem 0.4rem #01ffe8, 0rem 0.2rem 0.4rem #28fff5, 0rem 0.2rem 0.4rem #ff006a, 0rem 0.2rem 0.4rem #ff006a, 0rem 0.2rem 0.4rem #28fff5;
     color: #a9ff00c7;
 }
+
 .h-p {
     display: flex;
     align-items: center;
@@ -47,6 +49,7 @@ html {
     color: black;
     transition: 0.2s;
 }
+
 .h-p ul li a:hover {
     border-bottom: 0.2rem solid rgb(95, 95, 95);
     color: #00fff3;
@@ -215,6 +218,32 @@ p6 {
     z-index: -1;
 }
 
+.img1-con h1 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.img1-con p {
+    margin-top: -1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.img1-con img:nth-child(1) {
+    margin-left: 2rem;
+}
+
+.img1-con img:nth-child(2) {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.img1-con img:nth-child(3) {
+    width: 80%;
+    height: 41rem;
+}
+
 .img1-con img:hover {
     box-shadow: 0rem 0rem 1rem 0rem gray;
 }
@@ -357,9 +386,11 @@ p6 {
     margin-right: 0.5rem;
     border-radius: 1rem;
 }
-.a-con{
+
+.a-con {
     margin-top: 1rem;
 }
+
 .a-con .first-p {
     margin-bottom: 4rem;
 }
@@ -471,6 +502,7 @@ footer {
     margin-bottom: 0.5rem;
     display: block;
 }
+
 .hamburger .line:nth-child(2) {
     width: 6.8rem;
     border-radius: 1rem;
@@ -479,6 +511,7 @@ footer {
     margin-bottom: 1.3rem;
     display: block;
 }
+
 .hamburger .line:nth-child(3) {
     width: 3.8rem;
     border-radius: 1rem;
@@ -498,10 +531,12 @@ footer a {
 .img1-con img {
     width: 33%;
 }
-.auto-type1{
+
+.auto-type1 {
     font-size: 3rem;
 }
-.a1-con a{
+
+.a1-con a {
     text-decoration: none;
 }
 
@@ -514,9 +549,11 @@ footer a {
         display: block;
         margin-left: -2rem;
     }
-    .logo{
+
+    .logo {
         font-size: 7rem;
     }
+
     .hamburger .line {
         width: 8.8rem;
         height: 1.2rem;
@@ -634,6 +671,13 @@ footer a {
 
     #anathor-four p {
         font-size: 4.3rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    #anathor-four h1 {
+        margin-top: 1rem;
+        margin-left: 1rem;
     }
 
     #anathor-three p {
@@ -712,6 +756,21 @@ footer a {
         top: 16rem;
     }
 
+    .multi-head-para-con h4 {
+        margin-top: -1rem;
+        margin-left: 1rem;
+        padding: 1rem;
+        color: darkblue;
+    }
+
+    .multi-head-para-con h1,
+    h3,
+    p {
+        margin-top: -1rem;
+        margin-left: 1rem;
+        padding: 1rem;
+    }
+
     .multi-head-para-con a {
         font-size: 5rem;
     }
@@ -750,11 +809,12 @@ footer a {
         flex-direction: column;
         gap: 1rem;
     }
-    .toc-bac{
+
+    .toc-bac {
         width: none;
         height: 103rem;
     }
-   
+
 }
 
 @media (max-width:390px) {

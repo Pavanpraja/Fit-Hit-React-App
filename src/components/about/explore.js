@@ -2,7 +2,7 @@ import React from 'react'
 import '../../App.css'
 function Explore() {
   return (
-  <>                                                                                                                                                              
+  <>                                                                                                                                                           
       <section id="anathor-two">
         <div class="a-con">
             <h1>What It Means to Be Fit</h1>
@@ -42,18 +42,17 @@ function Explore() {
         </div>
     </section>
     <section id="anathor-four">
-        <h1 style="margin-top: 1rem; margin-left: 1rem;">Types of Fitness
-        </h1>
-        <p style="margin-top: 1rem; margin-left: 1rem;">There are a few main components of fitness, all of which are
+        <h1>Types of Fitness</h1>
+        <p>There are a few main components of fitness, all of which are
             important for building a well-rounded exercise routine. Below, you will find the ones included in the
             Physical Activity Guidelines for Americans, which HHS highlights as the components that should be
             included in weekly exercise. (It’s worth noting that many definitions of fitness include other
             components as well, such as endurance, muscular endurance, power, speed, balance, and agility — as
             mentioned above.)</p>
         <div class="img1-con">
-            <h1 style="margin-top: 1rem; margin-left: 1rem; padding: 1rem;">Aerobic Exercise</h1>
-            <img src="/images/fitness.png" alt="" style="margin-left: 2rem;">
-            <p style="margin-top: 1rem; margin-left: 2rem;">Aerobic exercise is the foundation of every fitness program
+        <h1>Aerobic Exercise</h1>
+            <img src="fitness.png" alt="..."/>
+            <p>Aerobic exercise is the foundation of every fitness program
                 —
                 and for good reason. Also called cardiovascular
                 exercise or cardio, this type of physical activity increases your heart rate and breathing rate, which
@@ -63,9 +62,9 @@ function Explore() {
                 classes
                 (like kickboxing), tennis, dancing, yard work, tennis, and jumping rope, per the Physical Activity
                 Guidelines.</p>
-            <h1 style="margin-top: 1rem; margin-left: 1rem; padding: 1rem;">Strength Training</h1>
-            <img src="/images/sec-img.png" alt="" style="margin-left: 2rem; margin-bottom: 1rem;">
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Strength training is an important way to
+            <h1>Strength Training</h1>
+            <img src="sec-img.png" alt="..."/>
+            <p>Strength training is an important way to
                 improve
                 mobility and overall functioning, particularly as you get older. “As you age, you lose muscle mass,
                 which
@@ -75,7 +74,7 @@ function Explore() {
                 Sallis,
                 MD, a family medicine doctor at Kaiser Permanente in Fontana, California, and chairman of the Exercise
                 Is
-                Medicine initiative with the American College of Sports Medicine (ACSM).
+                Medicine initiative with the American College of Sports Medicine ACSM.
 
                 According to the ACSM, the definition of strength or resistance training is exercise that is “designed
                 to
@@ -84,39 +83,36 @@ function Explore() {
                 that answer this call include lifting weights, using resistance bands or your body weight, carrying
                 heavy
                 loads, and even strenuous gardening, per the Physical Activity Guidelines from HHS.</p>
-            <h1 style="margin-top: 1rem; margin-left: 1rem; padding: 1rem;">Flexibility and Mobility</h1>
-            <img src="images/m-f.png" alt="mob" style="width: 80%;
-                    height: 41rem;">
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Flexibility and mobility are both important
+            <h1>Flexibility and Mobility</h1>
+            <img src="m-f.png" alt="..."/>
+            <p>Flexibility and mobility are both important
                 components of healthy movement, according to the International Sports Sciences Association. However,
                 they
                 are not synonymous. Flexibility refers to the ability of tendons, muscles, and ligaments to stretch,
                 while mobility refers to
-                the body’s ability to take a joint through its full range-of-motion.There is no specific recommendation
+                the bodys ability to take a joint through its full range-of-motion.There is no specific recommendation
                 for the number of minutes you should do activities that improve
-                flexibility or mobility (such as stretching), and the health benefits of those activities are not known
+                flexibility or mobility such as stretching, and the health benefits of those activities are not known
                 because of a lack of research on the topic, according to the Physical Activity Guidelines from HHS. But
                 the
                 guidelines note that flexibility exercises are important for physical fitness.
             </p>
-        </div>
-    </section>
-
+         </div>
     </section>
     <section id="anathor-three">
         <div class="multi-head-para-con">
-            <h1 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Rest and Recovery</h1>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Building in rest and recovery days allows
+            <h1>Rest and Recovery</h1>
+            <p>Building in rest and recovery days allows
                 time for your body to repair the natural damage that occurs to
                 muscles during exercise. Exercise, by definition, puts stress on the muscles and the body. The repairing
                 or healing of that stress is how you get stronger (and fitter). But you need to give the body adequate
                 rest after a workout for that recovery process to happen.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Recovery days can include no physical
+            <p>Recovery days can include no physical
                 activity at all or they may look like an active recovery day, which means doing low-intensity,
                 low-impact forms of exercise, such as walking or gentle yoga. Dr. Sallis generally recommends doing some
                 activity every day, such as a 10-minute walk outdoors.</p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">For rest and recovery days, the idea isn’t
+            <p>For rest and recovery days, the idea isn’t
                 that you’re immobile on your couch; it’s just that you’re not pushing yourself to a point where physical
                 activity feels strenuous or challenging. </p>
         </div>
@@ -124,26 +120,26 @@ function Explore() {
 
     <section id="anathor-five">
         <div class="multi-head-para-con">
-            <h1 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Health Benefits of Exercise</h1>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Improved fitness drastically reduces the
+            <h1>Health Benefits of Exercise</h1>
+            <p>Improved fitness drastically reduces the
                 risk of chronic diseases that develop over time, such as heart disease, type 2 diabetes, and even
                 cancer. “The one thing that will help prevent almost any type of disease is fitness,” says Grayson
                 Wickham, DPT, CSCS, founder of Movement Vault, a mobility and movement company in New York City.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">In 2007, ACSM partnered with the American
+            <p>In 2007, ACSM partnered with the American
                 Medical Association to launch the Exercise Is Medicine initiative, with the goal of making physical
                 activity assessment part of routine medical care and providing exercise resources to people of all
                 ability levels. “The scientifically proven benefits of physical activity remain indisputable, and they
                 can be as powerful as any pharmaceutical agent in preventing and treating a range of chronic diseases
                 and medical conditions,” the initiative’s website notes.</p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Here’s a breakdown of those benefits:</p>
+            <p>Here’s a breakdown of those benefits:</p>
         </div>
     </section>
 
     <section id="anathor-two">
         <div class="multi-head-para-con">
-            <h1 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Exercise Boosts Your Mood</h1>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Regular exercise has been shown to be a
+            <h1>Exercise Boosts Your Mood</h1>
+            <p>Regular exercise has been shown to be a
                 buffer against depression and anxiety, according to research. What’s more, other studies show that
                 exercise can help manage the symptoms of depression and help treat it, notes a scientific article.
                 Exercise may help reduce inflammation, something that has been shown to be increased in people with
@@ -156,14 +152,14 @@ function Explore() {
 
     <section id="anathor-two">
         <div class="multi-head-para-con">
-            <h1 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Exercise Is Good for Sleep</h1>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Habitual exercise can help you get more
+            <h1>Exercise Is Good for Sleep</h1>
+            <p>Habitual exercise can help you get more
                 restful sleep at night. Of 34 studies included in a systematic review, 29 found that exercise improved
                 sleep quality and was associated with longer bouts of slumber. It may help set your body clock (so that
                 you are alert and sleepy at appropriate times), create chemical changes in the brain that favor sleep,
                 and, as past research indicates, can ease presleep anxiety that may otherwise keep you up.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">It’s worth noting, however, that
+            <p>It’s worth noting, however, that
                 high-intensity exercise done too close to bedtime (within about an hour or two) can make it more
                 difficult for some people to sleep and should be done earlier in the day.
             </p>
@@ -173,8 +169,8 @@ function Explore() {
 
     <section id="anathor-two">
         <div class="multi-head-para-con">
-            <h1 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Exercise Promotes Long-Term Health</h1>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Exercise has been shown to improve brain and
+            <h1>Exercise Promotes Long-Term Health</h1>
+            <p>Exercise has been shown to improve brain and
                 bone health, preserve muscle mass (so that you’re not frail as you age), boost your sex life, improve
                 gastrointestinal function, and reduce the risk of many diseases, including cancer and stroke. Research
                 involving more than 116,000 adults also showed that getting the recommended 150 to 300 minutes of
@@ -186,25 +182,25 @@ function Explore() {
 
     <section id="anathor-two">
         <div class="multi-head-para-con">
-            <h1 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Fitness Helps You Manage Chronic Disease
+            <h1>Fitness Helps You Manage Chronic Disease
             </h1>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Exercise helps the body function, and that
+            <p>Exercise helps the body function, and that
                 includes managing other chronic health problems. According to the Centers for Disease Control and
                 Prevention (CDC), if you have osteoarthritis, high blood pressure, type 2 diabetes, multiple sclerosis,
                 Parkinson’s disease, dementia, or have had a stroke or cancer, physical activity can help. Exercise can
                 help decrease pain, improve insulin sensitivity and blood sugar control, promote mobility, improve heart
                 health, lower the risk of other chronic diseases, and play a role in good mental health.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">If you have a chronic disease and you’re
+            <p>If you have a chronic disease and you’re
                 looking to stay active or get more active, a walking routine is generally a safe place to start. “The
                 vast majority of people do not need clearance from their doctor to start walking, unless your physician
                 has told you specifically that they don’t want you exercising,” says Sallis.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">He says he wishes that more people would
+            <p>He says he wishes that more people would
                 look at physical activity as a baseline and that: “You need to get clearance from your doctor not to
                 exercise,” he says.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">But if you get excessively short of breath,
+            <p>But if you get excessively short of breath,
                 experience chest pain, or have any other concerning symptoms, call your doctor.
             </p>
 
@@ -213,30 +209,30 @@ function Explore() {
 
     <section id="anathor-six">
         <div class="multi-head-para-con">
-            <h1 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">How Much Exercise Do You Need?</h1>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Per the Physical Activity Guidelines for
+            <h1>How Much Exercise Do You Need?</h1>
+            <p>Per the Physical Activity Guidelines for
                 Americans from the U.S. Department of Health and Human Services, clocking either 150 minutes of
                 moderate-intensity aerobic activity (such as brisk walking) or 75 minutes of vigorous-intensity aerobic
                 activity (such as jogging or running) per week is the lowest amount of exercise that promotes good
                 health. (Doing a combination of moderate and vigorous activity is also okay, as long as you spread it
                 out over at least two days during the week.)
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Additionally, do muscle-strengthening
+            <p>Additionally, do muscle-strengthening
                 activity at least two days a week, targeting all of the major muscle groups (legs, hips, back, abdomen,
                 chest, shoulders, and arms), according to the guidelines.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">There is currently no recommendation for
+            <p>There is currently no recommendation for
                 flexibility or mobility work, according to the HHS. But older adults in particular should incorporate
                 balance training into their weekly physical activity.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Doing more physical activity has been linked
+            <p>Doing more physical activity has been linked
                 to even greater health benefits, particularly up to 300 weekly minutes of moderate-intensity exercise
                 (after which the incremental benefits start to flatten out). And know that these baseline fitness
                 recommendations, while they are enough to promote good long-term health, may not be sufficient to meet
                 certain health or fitness goals. (For example, you will need to exercise for a significantly longer
                 amount of time each week if you want to train for a marathon.)
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">And know that extreme amounts of exercise
+            <p>And know that extreme amounts of exercise
                 may put increased stress on the body and can actually lead to some negative health effects; research has
                 yet to determine what that upper limit might be, but the evidence so far suggests that it is at least
                 several times the current weekly minimum recommendations.
@@ -246,28 +242,28 @@ function Explore() {
 
     <section id="anathor-seven">
         <div class="multi-head-para-con">
-            <h1 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">What to Eat Before, During, and After
+            <h1>What to Eat Before, During, and After
                 Exercise</h1>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Fueling your body with adequate and healthy
+            <p>Fueling your body with adequate and healthy
                 foods also plays an important role in exercise.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;"><b>Before Your Workout</b> If you’re
+            <p><b>Before Your Workout</b> If you’re
                 exercising shortly after you wake up in the morning, listen to your body’s hunger cues, says Jackie
                 Dikos, RDN, a sports dietitian in Westfield, Indiana, and author of Finish Line Fueling. If you ate a
                 heavier or later dinner the night before, you may not need anything. If you have an intense workout
                 ahead of you and are hungry, you may need a small snack.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Eating easy-to-digest carbohydrates, such as
+            <p>Eating easy-to-digest carbohydrates, such as
                 a banana or some cereal just prior to a workout, or a combination of carbs and protein (e.g., toast with
                 nut butter) 30 minutes beforehand will fuel you up for the work ahead. If you recently ate a meal, you
                 may be able to skip the snack entirely.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;"><b>During Your Workout</b> Shorter workouts
+            <p><b>During Your Workout</b> Shorter workouts
                 don’t require mid-exercise fueling, but longer bouts of endurance exercise do. Consume 30 to 60 grams of
                 carbohydrates every hour after the first 60 minutes of exercise, according to recommendations from the
                 International Society of Sports Nutrition. Sports drinks are one option.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;"><b>After Your Workout</b> A low- to
+            <p><b>After Your Workout</b> A low- to
                 moderate-intensity workout, such as a 45-minute brisk walk, doesn’t require immediate refueling
                 (particularly if your next meal is not far away), Dikos says. But if you’ve just done a high-intensity
                 workout, or if you know you’re doing another workout later that day or a tough workout the next day,
@@ -279,27 +275,27 @@ function Explore() {
 
     <section id="anathor-eight">
         <div class="multi-head-para-con">
-            <h1 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">What You Should Know About Home Gym
+            <h1>What You Should Know About Home Gym
                 Equipment</h1>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Exercising at home means you get to skip the
+            <p>Exercising at home means you get to skip the
                 commute to the gym, and you won’t have to wait for someone else to finish up on the machine you want to
                 use. You get to work out whenever it fits into your schedule.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">One positive outcome of the pandemic is that
+            <p>One positive outcome of the pandemic is that
                 there are now so many more online resources for exercise programs, says Smith-Ryan. Many of those
                 programs require no equipment at all and can be easily done with a small amount of floor space.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">If you are just starting out, she says that
+            <p>If you are just starting out, she says that
                 simple body-weight exercises (squats, lunges, pushups) can help build muscle during resistance training.
                 Consider investing in a yoga or exercise mat, so that you can easily do floor exercises. After that,
                 consider collecting resistance bands or a set of dumbbells to up the intensity of strength training.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">What you choose will depend on your
+            <p>What you choose will depend on your
                 preferences, budget, and the space available in your home. For instance, a set of resistance bands is
                 cheap and can be stored easily. But know that you can get in a good sweat session without a lot of
                 equipment and without having to spend a lot of money.
             </p>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;"><b>After Your Workout</b> A low- to
+            <p><b>After Your Workout</b> A low- to
                 moderate-intensity workout, such as a 45-minute brisk walk, doesn’t require immediate refueling
                 (particularly if your next meal is not far away), Dikos says. But if you’ve just done a high-intensity
                 workout, or if you know you’re doing another workout later that day or a tough workout the next day,
@@ -311,41 +307,41 @@ function Explore() {
 
     <section id="anathor-nine">
         <div class="multi-head-para-con">
-            <h1 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Resources We Love</h1>
-            <h3 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">Favorite Orgs for Essential Exercise Info
+            <h1>Resources We Love</h1>
+            <h3>Favorite Orgs for Essential Exercise Info
             </h3>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">The ACSM is a professional society that
+            <p>The ACSM is a professional society that
                 certifies personal trainers and sports medicine specialists around the globe. The organization publishes
                 evidence-based position stands about key fitness and sports medicine topics. It also publishes scholarly
                 journals with leading research in the field.
             </p>
             <a href="https://www.acsm.org/">
-                <h4 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem; color: darkblue;">American Council on
+                <h4>American Council on
                     Exercise (ACE)
                 </h4>
             </a>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">ACE is a nonprofit exercise professional and
+            <p>ACE is a nonprofit exercise professional and
                 health coach certification organization. In addition to certifications, the group offers continuing
                 education for fitness professionals. ACE partners with various community groups across the country to
                 help make more physical activity opportunities available to everyone, and the group also engages in
                 advocacy to advance policies that reduce the barriers that prevent people from being physically active.
             </p>
             <a href="https://www.acefitness.org/">
-                <h4 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem; color: darkblue;">American College of
+                <h4>American College of
                     Sports Medicine (ACSM)
                 </h4>
             </a>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">The ACSM is a professional society that
+            <p>The ACSM is a professional society that
                 certifies personal trainers and sports medicine specialists around the globe. The organization publishes
                 evidence-based position stands about key fitness and sports medicine topics. It also publishes scholarly
                 journals with leading research in the field.
             </p>
             <a href="https://www.nasm.org/">
-                <h4 style="margin-top: -1rem; margin-left: 1rem; padding: 1rem; color: darkblue;">National Academy of
+                <h4>National Academy of
                     Sports Medicine (NASM)
                 </h4>
             </a>
-            <p style="margin-top: -1rem; margin-left: 1rem; padding: 1rem;">NASM certifies personal trainers across the
+            <p>NASM certifies personal trainers across the
                 country. The organization also offers continuing education workshops for personal trainers, on topics
                 ranging from nutrition to weight loss to behavior change skills.
             </p>
