@@ -3,13 +3,13 @@ import '../../App.css'
 function About() {
   return (
       <section id="about-con">
-        <div class="a-con">
+        <div className="a-con">
             <h1>Welcome to Fit-Hit media: A letter from Editor</h1>
-            <p class="first-p">Fitness translates into function, into your ability to do everyday activities. And know,
+            <p className="first-p">Fitness translates into function, into your ability to do everyday activities. And know,
                 you don't need
                 to spend hours at the gym to boost your fitness.
             </p>
-            <p class="second-p">Many people strive to be fit. Fitness, after all, is synonymous with health.
+            <p className="second-p">Many people strive to be fit. Fitness, after all, is synonymous with health.
 
                 Having a high level of overall fitness is linked with a lower risk of chronic disease, as well as a
                 better ability to manage health issues that do come up. Better fitness also promotes more functionality

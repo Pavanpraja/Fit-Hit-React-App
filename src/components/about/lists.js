@@ -3,7 +3,7 @@ import '../../App.css'
 function Lists() {
   return (
       <section id="anathor-one">
-        <div class="a1-con">
+        <div className="a1-con">
           <h1>Explore with these topics...</h1>
           <a href="#anathor-two">
             <p>Definition</p>

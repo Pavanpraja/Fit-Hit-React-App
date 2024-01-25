@@ -4,14 +4,14 @@ function Explore() {
   return (
   <>                                                                                                                                                           
       <section id="anathor-two">
-        <div class="a-con">
+        <div className="a-con">
             <h1>What It Means to Be Fit</h1>
             <p>
                 According to the Physical Activity Guidelines for Americans set forth by the U.S. Department of Health
                 and Human Services (HHS), there are five components of physical fitness:
             </p>
         </div>
-        <div class="h-p-con">
+        <div className="h-p-con">
             <p><big><b>&#x2022; Cardiorespiratory Fitness</b></big>
                 Cardiorespiratory Fitness Your VO2 max is a commonly used measure of this. It’s your body’s ability to
                 uptake and utilize oxygen (which feeds all of your tissues), something that is directly related to your
@@ -49,7 +49,7 @@ function Explore() {
             included in weekly exercise. (It’s worth noting that many definitions of fitness include other
             components as well, such as endurance, muscular endurance, power, speed, balance, and agility — as
             mentioned above.)</p>
-        <div class="img1-con">
+        <div className="img1-con">
         <h1>Aerobic Exercise</h1>
             <img src="fitness.png" alt="..."/>
             <p>Aerobic exercise is the foundation of every fitness program
@@ -59,7 +59,7 @@ function Explore() {
                 improves your cardiorespiratory fitness, according to the American Heart Association.
 
                 Aerobic exercise includes activities like brisk walking, running, cycling, swimming, aerobic fitness
-                classes
+                classNamees
                 (like kickboxing), tennis, dancing, yard work, tennis, and jumping rope, per the Physical Activity
                 Guidelines.</p>
             <h1>Strength Training</h1>
@@ -100,7 +100,7 @@ function Explore() {
          </div>
     </section>
     <section id="anathor-three">
-        <div class="multi-head-para-con">
+        <div className="multi-head-para-con">
             <h1>Rest and Recovery</h1>
             <p>Building in rest and recovery days allows
                 time for your body to repair the natural damage that occurs to
@@ -119,7 +119,7 @@ function Explore() {
     </section>
 
     <section id="anathor-five">
-        <div class="multi-head-para-con">
+        <div className="multi-head-para-con">
             <h1>Health Benefits of Exercise</h1>
             <p>Improved fitness drastically reduces the
                 risk of chronic diseases that develop over time, such as heart disease, type 2 diabetes, and even
@@ -137,7 +137,7 @@ function Explore() {
     </section>
 
     <section id="anathor-two">
-        <div class="multi-head-para-con">
+        <div className="multi-head-para-con">
             <h1>Exercise Boosts Your Mood</h1>
             <p>Regular exercise has been shown to be a
                 buffer against depression and anxiety, according to research. What’s more, other studies show that
@@ -151,7 +151,7 @@ function Explore() {
     </section>
 
     <section id="anathor-two">
-        <div class="multi-head-para-con">
+        <div className="multi-head-para-con">
             <h1>Exercise Is Good for Sleep</h1>
             <p>Habitual exercise can help you get more
                 restful sleep at night. Of 34 studies included in a systematic review, 29 found that exercise improved
@@ -168,7 +168,7 @@ function Explore() {
     </section>
 
     <section id="anathor-two">
-        <div class="multi-head-para-con">
+        <div className="multi-head-para-con">
             <h1>Exercise Promotes Long-Term Health</h1>
             <p>Exercise has been shown to improve brain and
                 bone health, preserve muscle mass (so that you’re not frail as you age), boost your sex life, improve
@@ -181,7 +181,7 @@ function Explore() {
     </section>
 
     <section id="anathor-two">
-        <div class="multi-head-para-con">
+        <div className="multi-head-para-con">
             <h1>Fitness Helps You Manage Chronic Disease
             </h1>
             <p>Exercise helps the body function, and that
@@ -208,7 +208,7 @@ function Explore() {
     </section>
 
     <section id="anathor-six">
-        <div class="multi-head-para-con">
+        <div className="multi-head-para-con">
             <h1>How Much Exercise Do You Need?</h1>
             <p>Per the Physical Activity Guidelines for
                 Americans from the U.S. Department of Health and Human Services, clocking either 150 minutes of
@@ -241,7 +241,7 @@ function Explore() {
     </section>
 
     <section id="anathor-seven">
-        <div class="multi-head-para-con">
+        <div className="multi-head-para-con">
             <h1>What to Eat Before, During, and After
                 Exercise</h1>
             <p>Fueling your body with adequate and healthy
@@ -274,7 +274,7 @@ function Explore() {
     </section>
 
     <section id="anathor-eight">
-        <div class="multi-head-para-con">
+        <div className="multi-head-para-con">
             <h1>What You Should Know About Home Gym
                 Equipment</h1>
             <p>Exercising at home means you get to skip the
@@ -306,7 +306,7 @@ function Explore() {
     </section>
 
     <section id="anathor-nine">
-        <div class="multi-head-para-con">
+        <div className="multi-head-para-con">
             <h1>Resources We Love</h1>
             <h3>Favorite Orgs for Essential Exercise Info
             </h3>

@@ -6,21 +6,21 @@ function Navbar() {
     <>
     <div>
     <nav>
-        <div class="h-p">
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+        <div className="h-p">
+            <div className="hamburger">
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
             </div>
-            <h1 class="logo">FIT-HIT</h1>
-            <ul class="all-lists">
+            <h1 className="logo">FIT-HIT</h1>
+            <ul className="all-lists">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="#about-con">About</a></li>
                 <li><a href="/Perform.html">Perform</a></li>
                 <li><a href="/TOC.html">Privacy policy</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <div class="nav-d">
+            <div className="nav-d">
                 <input type="text" placeholder="search for health"/>
                 <button>Search</button>
             </div>
