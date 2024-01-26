@@ -170,7 +170,7 @@ function Perform() {
                 src="https://img.icons8.com/3d-fluency/94/go.png"
                 alt="play--v1"
                 onClick={pause}
-                className="fhide"
+                className="fhide go"
               />
             </span>
           </div>
@@ -208,7 +208,7 @@ function Perform() {
                 src="https://img.icons8.com/3d-fluency/94/go.png"
                 alt="play--v1"
                 onClick={pause1}
-                className="fhide1"
+                className="fhide1 go"
               />
             </span>
           </div>
@@ -247,7 +247,7 @@ function Perform() {
                 src="https://img.icons8.com/3d-fluency/94/go.png"
                 alt="play--v1"
                 onClick={pause2}
-                className="fhide2"
+                className="fhide2 go"
               />
             </span>
           </div>
@@ -285,7 +285,7 @@ function Perform() {
                 src="https://img.icons8.com/3d-fluency/94/go.png"
                 alt="play--v1"
                 onClick={pause3}
-                className="fhide3"
+                className="fhide3 go"
               />
             </span>
           </div>
@@ -324,7 +324,7 @@ function Perform() {
                 src="https://img.icons8.com/3d-fluency/94/go.png"
                 alt="play--v1"
                 onClick={pause4}
-                className="fhide4"
+                className="fhide4 go"
               />
             </span>
           </div>
@@ -361,7 +361,7 @@ function Perform() {
                 src="https://img.icons8.com/3d-fluency/94/go.png"
                 alt="play--v1"
                 onClick={pause5}
-                className="fhide5"
+                className="fhide5 go"
               />
             </span>
           </div>
@@ -397,7 +397,7 @@ function Perform() {
                 src="https://img.icons8.com/3d-fluency/94/go.png"
                 alt="play--v1"
                 onClick={pause6}
-                className="fhide6"
+                className="fhide6 go"
               />
             </span>
           </div>
@@ -433,7 +433,7 @@ function Perform() {
                 src="https://img.icons8.com/3d-fluency/94/go.png"
                 alt="play--v1"
                 onClick={pause7}
-                className="fhide7"
+                className="fhide7 go"
               />
             </span>
           </div>
@@ -472,7 +472,7 @@ function Perform() {
                 src="https://img.icons8.com/3d-fluency/94/go.png"
                 alt="play--v1"
                 onClick={pause8}
-                className="fhide8"
+                className="fhide8 go"
               />
             </span>
           </div>

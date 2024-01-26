@@ -452,31 +452,40 @@ p6 {
     margin-top: 1rem;
     border-radius: 1rem;
 }
-#anathor-four{
+
+#anathor-four {
     padding: 1rem;
 }
-#anathor-three{
+
+#anathor-three {
     padding: 1rem;
 }
-#anathor-five{
+
+#anathor-five {
     padding: 1rem;
 }
-#anathor-two{
+
+#anathor-two {
     padding: 1rem;
 }
-#anathor-six{
+
+#anathor-six {
     padding: 1rem;
 }
-#anathor-seven{
+
+#anathor-seven {
     padding: 1rem;
 }
-#anathor-eight{
+
+#anathor-eight {
     padding: 1rem;
 }
-#anathor-nine{
+
+#anathor-nine {
     padding: 1rem;
 }
-.h-p-con{
+
+.h-p-con {
     padding: 1rem;
 }
 
@@ -614,6 +623,7 @@ footer a {
     font-weight: 600;
     font-size: 1.5rem;
 }
+
 .toc-texts-btn .b-p:nth-child(2) {
     font-weight: 600;
     font-size: 1.3rem;
@@ -694,19 +704,18 @@ footer a {
 
 @media (max-width:438px) {
     .toc-container {
-        width: 105vw;
-        height: 89vh;
+        width: 105rem;
+        height: 142rem;
     }
 
-    .toc-bac {
-        width: 48rem;
 
+    .h-b2 {
+        width: 86vw;
+        font-size: 2.8vw;
+        height: 14rem;
     }
-    .h-b2{
-        width: 77vw;
-font-size: 2.8vw;
-    }
-    .btns{
+
+    .btns {
         width: 77vw;
     }
 }
@@ -838,6 +847,8 @@ font-size: 2.8vw;
     #anathor-one {
         margin-top: 1rem;
         margin-left: 1rem;
+        margin-bottom: 12rem;
+        width: 104rem;
     }
 
     #anathor-four p {
@@ -981,9 +992,51 @@ font-size: 2.8vw;
         gap: 1rem;
     }
 
-    .toc-bac {
-        width: none;
-        height: 103rem;
+    .toc-bac {  
+        width: 100%;
+        height: 217rem;
+    }
+    .toc-texts-btn .h-b1 {
+        font-size: 6.5rem;
+    }
+    .toc-texts-btn .b-p:nth-child(2) {
+        font-size: 7.3rem;
+    }
+   
+    .toc-texts-btn .all-p {
+        opacity: 0.7;
+        font-size: 5.4rem;
+    }
+    .btns .f-btn {
+        padding: 1.5rem 3rem;
+        font-size: 4.1rem;
+        font-weight: 600;
+        border: none;
+        outline: 0;
+        cursor: pointer;
+        background: none;
+        box-shadow: 0rem 0rem 1.5rem 0rem gray;
+        margin: 3rem;
+        border-radius: 2.4rem;
+        width: 20rem;
+        height: 9.3rem;
+    }
+    .btns .s-btn {
+        padding: 1.5rem 3rem;
+        font-size: 4.1rem;
+        font-weight: 600;
+        border: none;
+        outline: 0;
+        cursor: pointer;
+        background: none;
+        box-shadow: 0rem 0rem 0.5rem 0rem gray;
+        margin: 3rem;
+        border-radius: 2.4rem;
+        width: 20rem;
+        height: 9.3rem;
+    }
+    .home-exercise{
+        flex-direction: column;
     }
 
 }

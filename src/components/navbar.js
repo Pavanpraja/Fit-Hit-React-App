@@ -1,16 +1,19 @@
 import React from "react";
 import "../App.css";
-
+import "react-dom";
 function Navbar() {
-  function navopen(){
-    
+  function handleClick(){
+    let a = document.querySelector(".hamburger");
+    let b = document.querySelector(".all-lists");
+    a.classList.toggle("active");
+    b.classList.toggle("active");
   }
   return (
     <>
       <div>
         <nav>
           <div className="h-p">
-            <div className="hamburger" onClick={navopen}>
+            <div className="hamburger" onClick={handleClick}>
               <div className="line"></div>
               <div className="line"></div>
               <div className="line"></div>
