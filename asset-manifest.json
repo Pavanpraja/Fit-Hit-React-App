@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Fit-Hit-React-App/static/css/main.67a1cb03.css",
+    "main.js": "/Fit-Hit-React-App/static/js/main.08887bd6.js",
+    "static/js/787.b09a0046.chunk.js": "/Fit-Hit-React-App/static/js/787.b09a0046.chunk.js",
+    "index.html": "/Fit-Hit-React-App/index.html",
+    "main.67a1cb03.css.map": "/Fit-Hit-React-App/static/css/main.67a1cb03.css.map",
+    "main.08887bd6.js.map": "/Fit-Hit-React-App/static/js/main.08887bd6.js.map",
+    "787.b09a0046.chunk.js.map": "/Fit-Hit-React-App/static/js/787.b09a0046.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67a1cb03.css",
+    "static/js/main.08887bd6.js"
+  ]
+}
