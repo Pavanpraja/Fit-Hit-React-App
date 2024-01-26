@@ -1,8 +1,27 @@
 import React, { useState } from "react";
+import './perform.css'
 import '../../App.css'
+import Navbar from "../navbar";
+import Footer from "../footer";
 function Perform() {
   const [minute, setMinute] = useState(0);
+  const [minute1, setMinute1] = useState(0);
+  const [minute2, setMinute2] = useState(0);
+  const [minute3, setMinute3] = useState(0);
+  const [minute4, setMinute4] = useState(0);
+  const [minute5, setMinute5] = useState(0);
+  const [minute6, setMinute6] = useState(0);
+  const [minute7, setMinute7] = useState(0);
+  const [minute8, setMinute8] = useState(0);
   const [second, setSecond] = useState(0);
+  const [second1, setSecond1] = useState(0);
+  const [second2, setSecond2] = useState(0);
+  const [second3, setSecond3] = useState(0);
+  const [second4, setSecond4] = useState(0);
+  const [second5, setSecond5] = useState(0);
+  const [second6, setSecond6] = useState(0);
+  const [second7, setSecond7] = useState(0);
+  const [second8, setSecond8] = useState(0);
   const startingMinutes = 3;
   let time = startingMinutes * 60;
 
@@ -48,8 +67,8 @@ function Perform() {
     let seconds = time % 60;
 
     seconds = seconds < 10 ? `0` * seconds : seconds;
-    setMinute(minutes);
-    setSecond(seconds);
+    setMinute1(minutes);
+    setSecond1(seconds);
     time--;
   }
   function updateCountdown2() {
@@ -57,8 +76,8 @@ function Perform() {
     let seconds = time % 60;
 
     seconds = seconds < 10 ? `0` * seconds : seconds;
-    setMinute(minutes);
-    setSecond(seconds);
+    setMinute2(minutes);
+    setSecond2(seconds);
     time--;
   }
   function updateCountdown3() {
@@ -67,8 +86,8 @@ function Perform() {
 
     seconds = seconds < 10 ? `0` * seconds : seconds;
     time--;
-    setMinute(minutes);
-    setSecond(seconds);
+    setMinute3(minutes);
+    setSecond3(seconds);
   }
   function updateCountdown4() {
     const minutes = Math.floor(time / 60);
@@ -76,8 +95,8 @@ function Perform() {
 
     seconds = seconds < 10 ? `0` * seconds : seconds;
     time--;
-    setMinute(minutes);
-    setSecond(seconds);
+    setMinute4(minutes);
+    setSecond4(seconds);
   }
   function updateCountdown5() {
     const minutes = Math.floor(time / 60);
@@ -85,8 +104,8 @@ function Perform() {
 
     seconds = seconds < 10 ? `0` * seconds : seconds;
     time--;
-    setMinute(minutes);
-    setSecond(seconds);
+    setMinute5(minutes);
+    setSecond5(seconds);
   }
   function updateCountdown6() {
     const minutes = Math.floor(time / 60);
@@ -94,8 +113,8 @@ function Perform() {
 
     seconds = seconds < 10 ? `0` * seconds : seconds;
     time--;
-    setMinute(minutes);
-    setSecond(seconds);
+    setMinute6(minutes);
+    setSecond6(seconds);
   }
   function updateCountdown7() {
     const minutes = Math.floor(time / 60);
@@ -103,8 +122,8 @@ function Perform() {
 
     seconds = seconds < 10 ? `0` * seconds : seconds;
     time--;
-    setMinute(minutes);
-    setSecond(seconds);
+    setMinute7(minutes);
+    setSecond7(seconds);
   }
   function updateCountdown8() {
     const minutes = Math.floor(time / 60);
@@ -112,10 +131,12 @@ function Perform() {
 
     seconds = seconds < 10 ? `0` * seconds : seconds;
     time--;
-    setMinute(minutes);
-    setSecond(seconds);
+    setMinute8(minutes);
+    setSecond8(seconds);
   }
   return (
+    <>
+    <Navbar />
     <section id="perform">
       <h5>Some Exercises For Health</h5>
       <div className="home-exercises max-width-1 m-auto">
@@ -155,6 +176,7 @@ function Perform() {
           </div>
         </div>
       </div>
+      <hr />
 
       <div className="home-exercises max-width-1 m-auto">
         <div className="home-exercise m-auto">
@@ -178,7 +200,7 @@ function Perform() {
               <h3>once</h3>
               <h4>daily for</h4>
               <h3 className="countdown1">
-                0{minute}: {second}
+                0{minute1}: {second1}
               </h3>{" "}
               <img
                 width="30"
@@ -192,6 +214,7 @@ function Perform() {
           </div>
         </div>
       </div>
+      <hr />
 
       <div className="home-exercises max-width-1 m-auto">
         <div className="home-exercise m-auto">
@@ -216,7 +239,7 @@ function Perform() {
               <h3>Twice</h3>
               <h4>daily for</h4>
               <h3 className="countdown2">
-                0{minute}: {second}
+                0{minute2}: {second2}
               </h3>{" "}
               <img
                 width="30"
@@ -230,6 +253,7 @@ function Perform() {
           </div>
         </div>
       </div>
+      <hr />
 
       <div className="home-exercises max-width-1 m-auto">
         <div className="home-exercise m-auto">
@@ -253,7 +277,7 @@ function Perform() {
               <h3>Twice</h3>
               <h4>daily for</h4>
               <h3 className="countdown3">
-                0{minute}: {second}
+                0{minute3}: {second3}
               </h3>{" "}
               <img
                 width="30"
@@ -267,6 +291,7 @@ function Perform() {
           </div>
         </div>
       </div>
+      <hr />
 
       <div className="home-exercises max-width-1 m-auto">
         <div className="home-exercise m-auto">
@@ -291,7 +316,7 @@ function Perform() {
               <h3>Twice</h3>
               <h4>daily for</h4>
               <h3 className="countdown4">
-                0{minute}: {second}
+                0{minute4}: {second4}
               </h3>{" "}
               <img
                 width="30"
@@ -305,6 +330,7 @@ function Perform() {
           </div>
         </div>
       </div>
+      <hr />
 
       <div className="home-exercises max-width-1 m-auto">
         <div className="home-exercise m-auto">
@@ -327,7 +353,7 @@ function Perform() {
               <h4>You have to do this exercise</h4>
               <h3>Once</h3>
               <h3 className="countdown5">
-                0{minute}: {second}
+                0{minute5}: {second5}
               </h3>
               <img
                 width="30"
@@ -341,6 +367,7 @@ function Perform() {
           </div>
         </div>
       </div>
+      <hr />
       <div className="home-exercises max-width-1 m-auto">
         <div className="home-exercise m-auto">
           <div className="home-exercise01-img">
@@ -362,7 +389,7 @@ function Perform() {
               <h4>You have to do this exercise</h4>
               <h3>twice</h3>
               <h3 className="countdown6">
-                0{minute}: {second}
+                0{minute6}: {second6}
               </h3>{" "}
               <img
                 width="30"
@@ -376,6 +403,7 @@ function Perform() {
           </div>
         </div>
       </div>
+      <hr />
       <div className="home-exercises max-width-1 m-auto">
         <div className="home-exercise m-auto">
           <div className="home-exercise02-img">
@@ -397,7 +425,7 @@ function Perform() {
               <h4>You have to do this exercise</h4>
               <h3>twice</h3>
               <h3 className="countdown7">
-                0{minute}: {second}
+                0{minute7}: {second7}
               </h3>{" "}
               <img
                 width="30"
@@ -411,6 +439,7 @@ function Perform() {
           </div>
         </div>
       </div>
+      <hr />
       <div className="home-exercises max-width-1 m-auto">
         <div className="home-exercise m-auto">
           <div className="home-exercise03-img">
@@ -435,7 +464,7 @@ function Perform() {
               <h4>You have to do this exercise</h4>
               <h3>twice</h3>
               <h3 className="countdown8">
-                0{minute}: {second}
+                0{minute8}: {second8}
               </h3>{" "}
               <img
                 width="30"
@@ -449,7 +478,10 @@ function Perform() {
           </div>
         </div>
       </div>
+      <hr />
     </section>
+    <Footer />
+    </>
   );
 }
 

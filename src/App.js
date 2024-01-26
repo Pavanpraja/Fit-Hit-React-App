@@ -1,23 +1,22 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
 import Perform from "./components/Perform/perform";
-import About from "./components/about/about";
-import Explore from "./components/about/explore";
-import Lists from "./components/about/lists";
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
+import Contact from "./components/Contact/contact";
+import TOC from "./components/TOC/TOC";
 
 function App() {
   return (
     <>
       <div className="App">
-        <Navbar />
-        <Home />
-        <About />
-        <Lists />
-        <Explore />
-        <Footer />
-        <Perform />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/perform" element={<Perform />} />
+          <Route path="/TOC" element={<TOC />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
       </div>
     </>
   );
